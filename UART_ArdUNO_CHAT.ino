@@ -1,8 +1,9 @@
-*/  
+/*  
 
 REDES e IoT Aula 1
+Prof. André Rufino
 
-/*
+*/
 
 
 #include <SoftwareSerial.h>
