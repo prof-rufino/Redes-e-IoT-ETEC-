@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   // Mostra mensagens recebidas do Mega
   if (Serial.available()) {
-    msg = Serial.readStringUntil('\n');
+    msg = Serial.readStringUntil('\n'); // Leitura Serial até: [('\n) line new]
     Serial.println(msg);
   }
 
